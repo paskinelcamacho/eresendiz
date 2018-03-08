@@ -1,0 +1,49 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family:arial;
+}
+
+
+header{
+	width:100%;
+	height:200px;
+	background:#1e1e1e;
+	position:fixed;
+
+}
+h3{
+font-size: 2em;
+color: white;
+text-align:center;
+}
+h4{
+font-size: 3em;
+color:white;
+text-align:center;
+}
+#favoritas, #no_favoritas{
+	width:auto;
+	margin-top:10px;
+	margin-right:10%;
+}
+
+#favoritas #no_favoritas {
+	list-style:none;
+}
+#favoritas .asignaturas, #no_favoritas .asignaturas{
+	
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style:italic;
+	color:#b7b7b7;
+}
+main{
+	position:relative;
+	top:60px;
+	width:100%;
+	height:600px;
+	background:gray;
+	
+}
